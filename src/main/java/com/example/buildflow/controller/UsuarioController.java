@@ -12,6 +12,7 @@ public class UsuarioController {
 
     List<Usuario> usuarios = new ArrayList<>();
 
+    //Teste de commit
     // LISTAR USUÁRIOS
     @GetMapping
     public List<Usuario> getUsuarios() {
